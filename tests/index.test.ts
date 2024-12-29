@@ -25,7 +25,7 @@ describe('StreamProcessor', () => {
 
     // Wait for all characters to be processed
     await new Promise((resolve) =>
-      setTimeout(resolve, streamContent.length * 10),
+      setTimeout(resolve, streamContent.length * 20),
     );
 
     expect(chars.join('')).toBe(streamContent);

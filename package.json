@@ -1,9 +1,12 @@
 {
-  "name": "smooth-stream",
+  "name": "smooth-char",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
   },
   "keywords": [],
   "author": "Paul Walsh",
@@ -20,8 +23,5 @@
     "prettier": "^3.4.2",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
-  },
-  "repository": {
-    "url": "https://github.com/username/smooth-stream"
   }
 }

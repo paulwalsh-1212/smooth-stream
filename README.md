@@ -1,4 +1,6 @@
-# smooth-stream**Smooth Stream** is a lightweight TypeScript library for processing readable streams. It allows you to process chunks from a readable stream character by character, simulating typing, while also buffering the entire stream content in memory.
+# smooth-stream
+
+**Smooth Stream** is a lightweight TypeScript library for processing readable streams. It allows you to process chunks from a readable stream character by character, simulating typing, while also buffering the entire stream content in memory.
 
 ---
 
